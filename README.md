@@ -7,10 +7,10 @@
 **Бесплатный бот для продавцов FunPay — приложение для Windows**<br>
 Без Python, сервера и конфигов: установил, вставил ключ, включил.
 
-[![Скачать](https://img.shields.io/badge/⬇_Скачать-Lotrix_1.0-0a84ff?style=for-the-badge)](https://github.com/CoraclerSoft/lotrix/releases/latest/download/Lotrix-Setup-1.0.0-x64.exe)
+[![Скачать](https://img.shields.io/badge/⬇_Скачать-Lotrix_1.0.1-0a84ff?style=for-the-badge)](https://github.com/CoraclerSoft/lotrix/releases/latest/download/Lotrix-Setup-1.0.1-x64.exe)
 [![Telegram](https://img.shields.io/badge/Telegram-@coraclersoft-2ea6ff?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/coraclersoft)
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-0%20%2F%2061-30d158?style=flat-square)](https://www.virustotal.com/gui/file/9d511e381ec1c2ccfd9c43dca9ed17663d909c99f17fc50a9bbcfd3551c41c59)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-отчёт-30d158?style=flat-square)](https://www.virustotal.com/gui/file/5f31094b344283254cb107ba86a31b7643eda180c30f6f2a8e23540f3301c8fc)
 ![Windows](https://img.shields.io/badge/Windows-10%20%2F%2011-5e5ce6?style=flat-square)
 ![Цена](https://img.shields.io/badge/цена-бесплатно-30d158?style=flat-square)
 ![Версия](https://img.shields.io/github/v/release/CoraclerSoft/lotrix?style=flat-square&label=версия&color=8e8cff)
@@ -73,7 +73,7 @@
 
 ## Установка
 
-1. Скачайте [**Lotrix-Setup-1.0.0-x64.exe**](https://github.com/CoraclerSoft/lotrix/releases/latest/download/Lotrix-Setup-1.0.0-x64.exe) (или переносную версию .zip в [релизах](https://github.com/CoraclerSoft/lotrix/releases)). Права администратора не нужны.
+1. Скачайте [**Lotrix-Setup-1.0.1-x64.exe**](https://github.com/CoraclerSoft/lotrix/releases/latest/download/Lotrix-Setup-1.0.1-x64.exe) (или переносную версию .zip в [релизах](https://github.com/CoraclerSoft/lotrix/releases)). Права администратора не нужны.
 2. Если Windows покажет «Windows защитила ваш компьютер», нажмите «Подробнее» → «Выполнить в любом случае». У приложения пока нет платной цифровой подписи.
 3. Во вкладке «Аккаунт» вставьте свой Golden Key: funpay.com → `F12` → Application → Cookies → `golden_key`.
 4. Включите нужное: «Поднятие», «Автовыдача», «Автоответы». Окно можно закрыть, Lotrix останется работать в трее.
@@ -83,14 +83,14 @@
 - Golden Key вводите вы сами. Он хранится **только на вашем компьютере** в зашифрованном виде (Windows DPAPI) и отправляется **только на funpay.com**.
 - У Lotrix нет своих серверов: ключ, товары для автовыдачи и переписка никуда не уходят.
 - Деньги выводятся и лоты покупаются только по вашей кнопке и после подтверждения.
-- Проверка файла: [VirusTotal — 0 / 61](https://www.virustotal.com/gui/file/9d511e381ec1c2ccfd9c43dca9ed17663d909c99f17fc50a9bbcfd3551c41c59).
+- Проверка файла: [отчёт VirusTotal](https://www.virustotal.com/gui/file/5f31094b344283254cb107ba86a31b7643eda180c30f6f2a8e23540f3301c8fc).
 
 ```
-SHA-256  Lotrix-Setup-1.0.0-x64.exe
-9d511e381ec1c2ccfd9c43dca9ed17663d909c99f17fc50a9bbcfd3551c41c59
+SHA-256  Lotrix-Setup-1.0.1-x64.exe
+5f31094b344283254cb107ba86a31b7643eda180c30f6f2a8e23540f3301c8fc
 ```
 
-Проверить у себя в PowerShell: `Get-FileHash .\Lotrix-Setup-1.0.0-x64.exe`. Если хеш не совпадает, файл не наш, не запускайте.
+Проверить у себя в PowerShell: `Get-FileHash .\Lotrix-Setup-1.0.1-x64.exe`. Если хеш не совпадает, файл не наш, не запускайте.
 
 ## Вопросы
 
